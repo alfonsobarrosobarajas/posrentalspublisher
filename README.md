@@ -2,6 +2,10 @@
 
 ## Application Setup
 
+### PostgreSQL database
+Restore sample database 'dvdrental.tar'
+> $ pg_restore -U <db_user> -d pos_sales dvdrental.tar
+
 __Configure__ 'Google Application Credentias', to GCP services Access
 
 * Create Google Application Credentials file, on GCP:  [Google Cloud Console](https://console.cloud.google.com/ "Google Cloud Console")
